@@ -5,4 +5,4 @@ const valorT = Number(prompt("Digite o valor da compra"))
 const numP = Number(prompt("Digite o número de parcelas da compra"))
 const resultado = valorT / numP
 
-alert(+numP+ " parcelas de  R$ " +resultado)
+alert(+numP + " parcelas de  R$ " + resultado)

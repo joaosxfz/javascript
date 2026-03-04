@@ -4,4 +4,4 @@
 const valorD = Number(prompt("Digite o valor do depósito"))
 const resultado = valorD * (1 + 2 / 100)
 
-alert("O saldo final após adicionar 2% fica " +resultado)
+alert("O saldo final após adicionar 2% fica " + resultado)

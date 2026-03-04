@@ -5,4 +5,4 @@ const comp = prompt("Digite o comprimento do terreno")
 const largura = prompt("Digite a largura do terreno")
 const resultado = comp * largura
 
-alert("A área possui " +resultado+ " m por quadrado")
+alert("A área possui " + resultado + " m por quadrado")

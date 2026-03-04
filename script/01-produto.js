@@ -4,4 +4,4 @@
 const produto = prompt("Digite o nome do produto")
 const preco = prompt("Digite o preço do produto")
 
-alert("O " +produto+ " custa " +preco)
+alert("O " + produto + " custa " + preco)
