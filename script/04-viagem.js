@@ -5,4 +5,3 @@ const dias = prompt("Digite a quantidade de dias viajados")
 const resultado = 24 * dias
 
 alert(dias+ " dias equivalem à " +resultado+ "h")
-
