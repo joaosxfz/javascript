@@ -120,18 +120,18 @@ buttonexercicio10.addEventListener('click', () => { exercicio10() })
 // --------------------------------------------------------------------------
 
 function exercicio11() {
-const num1 = Number(prompt("Digite o primeiro número"))
-const num2 = Number(prompt("Digite o segundo número"))
+    const num1 = Number(prompt("Digite o primeiro número"))
+    const num2 = Number(prompt("Digite o segundo número"))
 
-if (num1 === num2) {
-    alert("Eles são iguais")
-}
-else if (num1 < num2) {
-    alert("O menor número é " + num1)
-}
-else {
-    alert("O menor número é " + num2)
-}
+    if (num1 === num2) {
+        alert("Eles são iguais")
+    }
+    else if (num1 < num2) {
+        alert("O menor número é " + num1)
+    }
+    else {
+        alert("O menor número é " + num2)
+    }
 }
 const buttonexercicio11 = document.getElementById("exercicio11")
 buttonexercicio11.addEventListener('click', () => { exercicio11() })
@@ -139,17 +139,137 @@ buttonexercicio11.addEventListener('click', () => { exercicio11() })
 // --------------------------------------------------------------------------
 
 function exercicio12() {
-const idade = Number(prompt("Descubra se vc pode votar 👀"))
+    const idade = Number(prompt("Descubra se vc pode votar 👀"))
 
-if (idade < 16) {
-    alert("Pode não man 😐")
-}
-else if (idade === 16 || idade === 17) {
-    alert("Se quiser sim man 😎")
-}
-else {
-    alert("Obrigatório 💀")
-}
+    if (idade < 16) {
+        alert("Pode não man 😐")
+    }
+    else if (idade === 16 || idade === 17) {
+        alert("Se quiser sim man 😎")
+    }
+    else {
+        alert("Obrigatório 💀")
+    }
 }
 const buttonexercicio12 = document.getElementById("exercicio12")
 buttonexercicio12.addEventListener('click', () => { exercicio12() })
+
+// --------------------------------------------------------------------------
+
+function exercicio13() {
+    const compra = Number(prompt("Digite o valor da compra"))
+    const desconto = compra * (1 - 5 / 100)
+
+    if (compra > 100) {
+        alert("Com 5% de desconto o valor fica: " + desconto.toFixed(2))
+    }
+    else {
+        alert("Sem desconto")
+    }
+}
+const buttonexercicio13 = document.getElementById("exercicio13")
+buttonexercicio13.addEventListener('click', () => { exercicio13() })
+
+// --------------------------------------------------------------------------
+
+function exercicio14() {
+    const temp = Number(prompt("Digite a temperatura"))
+
+    if (temp < 15) {
+        alert("Frio 🥶")
+    }
+    else if (temp >= 15 && temp <= 25) {
+        alert("Agradavel 😎")
+    }
+    else {
+        alert("Quente 🥵")
+    }
+}
+const buttonexercicio14 = document.getElementById("exercicio14")
+buttonexercicio14.addEventListener('click', () => { exercicio14() })
+
+// --------------------------------------------------------------------------
+
+function exercicio15() {
+    const num = Number(prompt("Digite um número"))
+
+    if (num % 5 === 0) {
+        alert("O " + num + " é multiplo de 5")
+    }
+    else {
+        alert("O número não é multiplo de 5")
+    }
+}
+const buttonexercicio15 = document.getElementById("exercicio15")
+buttonexercicio15.addEventListener('click', () => { exercicio15() })
+
+// --------------------------------------------------------------------------
+
+function exercicio16() {
+    const num1 = Number(prompt("Digite o primeiro número"))
+    const num2 = Number(prompt("Digite o primeiro número"))
+
+    if (num1 % num2 === 0) {
+        alert("O " + num1 + " é divisível por " + num2)
+    }
+    else {
+        alert("O " + num1 + " não é divisível por " + num2)
+    }
+}
+const buttonexercicio16 = document.getElementById("exercicio16")
+buttonexercicio16.addEventListener('click', () => { exercicio16() })
+
+// --------------------------------------------------------------------------
+
+function exercicio17() {
+    const hora = Number(prompt("Digite o horário atual (APENAS A HORA)"))
+
+    if (hora >= 5 && hora <= 11) {
+        alert("BOM DIA ☀️")
+    }
+    else if (hora >= 12 && hora <= 17) {
+        alert("BOA TARDE 🌥️")
+    }
+    else {
+        alert("BOA NOITE 🌑")
+    }
+}
+const buttonexercicio17 = document.getElementById("exercicio17")
+buttonexercicio17.addEventListener('click', () => { exercicio17() })
+
+// --------------------------------------------------------------------------
+
+function exercicio18() {
+    const maior = Number(prompt("Digite a base maior"))
+    const menor = Number(prompt("Digite a base menor"))
+    const altura = Number(prompt("Digite a altura do trapézio"))
+    const resultado = (maior + menor) * (altura / 2)
+
+    alert("A área é: " + resultado)
+}
+const buttonexercicio18 = document.getElementById("exercicio18")
+buttonexercicio18.addEventListener('click', () => { exercicio18() })
+
+// --------------------------------------------------------------------------
+
+function exercicio19() {
+    const raio = Number(prompt("Digite o raio de um círculo"))
+    const area = Math.PI * raio ** 2
+    const circu = 2 * Math.PI * raio
+
+    alert("A área é: " + area + " e Circunferência: " + circu)
+}
+const buttonexercicio19 = document.getElementById("exercicio19")
+buttonexercicio19.addEventListener('click', () => { exercicio19() })
+
+// --------------------------------------------------------------------------
+
+function exercicio20() {
+    const altura = Number(prompt("Digite sua altura"))
+    const peso = Number(prompt("Digite seu peso"))
+    const resultado = peso / (altura * altura)
+
+    alert("Teu imc é: " + resultado.toFixed(1))
+}
+const buttonexercicio20 = document.getElementById("exercicio20")
+buttonexercicio20.addEventListener('click', () => { exercicio20() })
