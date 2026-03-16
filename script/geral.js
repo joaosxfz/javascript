@@ -8,7 +8,7 @@ function exercicio1() {
 const buttonexercicio1 = document.getElementById("exercicio1")
 buttonexercicio1.addEventListener('click', () => { exercicio1() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 2---------------------------------------------
 
 function exercicio2() {
     const comp = prompt("Digite o comprimento do terreno")
@@ -20,7 +20,7 @@ function exercicio2() {
 const buttonexercicio2 = document.getElementById("exercicio2")
 buttonexercicio2.addEventListener('click', () => { exercicio2() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 3---------------------------------------------
 
 function exercicio3() {
     const valorT = Number(prompt("Digite o valor da compra"))
@@ -32,7 +32,7 @@ function exercicio3() {
 const buttonexercicio3 = document.getElementById("exercicio3")
 buttonexercicio3.addEventListener('click', () => { exercicio3() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 4---------------------------------------------
 
 function exercicio4() {
     const dias = prompt("Digite a quantidade de dias viajados")
@@ -43,7 +43,7 @@ function exercicio4() {
 const buttonexercicio4 = document.getElementById("exercicio4")
 buttonexercicio4.addEventListener('click', () => { exercicio4() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 5---------------------------------------------
 
 function exercicio5() {
     const valorD = Number(prompt("Digite o valor do depósito"))
@@ -54,7 +54,7 @@ function exercicio5() {
 const buttonexercicio5 = document.getElementById("exercicio5")
 buttonexercicio5.addEventListener('click', () => { exercicio5() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 6---------------------------------------------
 
 function exercicio6() {
     const litros = Number(prompt("Digite a quantidade de litros consumidos"))
@@ -66,7 +66,7 @@ function exercicio6() {
 const buttonexercicio6 = document.getElementById("exercicio6")
 buttonexercicio6.addEventListener('click', () => { exercicio6() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 7---------------------------------------------
 
 function exercicio7() {
     const pedido = Number(prompt("Digite um número"))
@@ -78,7 +78,7 @@ function exercicio7() {
 const buttonexercicio7 = document.getElementById("exercicio7")
 buttonexercicio7.addEventListener('click', () => { exercicio7() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 8---------------------------------------------
 
 function exercicio8() {
     const idade = Number(prompt("Digite a idade"))
@@ -89,7 +89,7 @@ function exercicio8() {
 const buttonexercicio8 = document.getElementById("exercicio8")
 buttonexercicio8.addEventListener('click', () => { exercicio8() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 9---------------------------------------------
 
 function exercicio9() {
     const num = Number(prompt("Digite um número decimal"))
@@ -104,7 +104,7 @@ function exercicio9() {
 const buttonexercicio9 = document.getElementById("exercicio9")
 buttonexercicio9.addEventListener('click', () => { exercicio9() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 10---------------------------------------------
 
 function exercicio10() {
     const valor = Number(prompt("Digite o valor do produto"))
@@ -117,7 +117,7 @@ function exercicio10() {
 const buttonexercicio10 = document.getElementById("exercicio10")
 buttonexercicio10.addEventListener('click', () => { exercicio10() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 11---------------------------------------------
 
 function exercicio11() {
     const num1 = Number(prompt("Digite o primeiro número"))
@@ -136,7 +136,7 @@ function exercicio11() {
 const buttonexercicio11 = document.getElementById("exercicio11")
 buttonexercicio11.addEventListener('click', () => { exercicio11() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 12---------------------------------------------
 
 function exercicio12() {
     const idade = Number(prompt("Descubra se vc pode votar 👀"))
@@ -154,7 +154,7 @@ function exercicio12() {
 const buttonexercicio12 = document.getElementById("exercicio12")
 buttonexercicio12.addEventListener('click', () => { exercicio12() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 13---------------------------------------------
 
 function exercicio13() {
     const compra = Number(prompt("Digite o valor da compra"))
@@ -170,7 +170,7 @@ function exercicio13() {
 const buttonexercicio13 = document.getElementById("exercicio13")
 buttonexercicio13.addEventListener('click', () => { exercicio13() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 14---------------------------------------------
 
 function exercicio14() {
     const temp = Number(prompt("Digite a temperatura"))
@@ -188,7 +188,7 @@ function exercicio14() {
 const buttonexercicio14 = document.getElementById("exercicio14")
 buttonexercicio14.addEventListener('click', () => { exercicio14() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 15---------------------------------------------
 
 function exercicio15() {
     const num = Number(prompt("Digite um número"))
@@ -203,7 +203,7 @@ function exercicio15() {
 const buttonexercicio15 = document.getElementById("exercicio15")
 buttonexercicio15.addEventListener('click', () => { exercicio15() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 16---------------------------------------------
 
 function exercicio16() {
     const num1 = Number(prompt("Digite o primeiro número"))
@@ -219,7 +219,7 @@ function exercicio16() {
 const buttonexercicio16 = document.getElementById("exercicio16")
 buttonexercicio16.addEventListener('click', () => { exercicio16() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 17---------------------------------------------
 
 function exercicio17() {
     const hora = Number(prompt("Digite o horário atual (APENAS A HORA)"))
@@ -237,7 +237,7 @@ function exercicio17() {
 const buttonexercicio17 = document.getElementById("exercicio17")
 buttonexercicio17.addEventListener('click', () => { exercicio17() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 18---------------------------------------------
 
 function exercicio18() {
     const maior = Number(prompt("Digite a base maior"))
@@ -250,7 +250,7 @@ function exercicio18() {
 const buttonexercicio18 = document.getElementById("exercicio18")
 buttonexercicio18.addEventListener('click', () => { exercicio18() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 19---------------------------------------------
 
 function exercicio19() {
     const raio = Number(prompt("Digite o raio de um círculo"))
@@ -262,7 +262,7 @@ function exercicio19() {
 const buttonexercicio19 = document.getElementById("exercicio19")
 buttonexercicio19.addEventListener('click', () => { exercicio19() })
 
-// --------------------------------------------------------------------------
+// -------------------------QUESTÃO 20---------------------------------------------
 
 function exercicio20() {
     const altura = Number(prompt("Digite sua altura"))
